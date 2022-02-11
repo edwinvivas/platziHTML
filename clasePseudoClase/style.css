@@ -1,0 +1,39 @@
+.main-nav {
+    margin-top: 10px;
+    /* list-style: none; quita los puntos del inicio de cada item de la lista */
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13a4a4;
+}
+
+.main-nav__item{
+display: inline-block;
+}
+
+.main-nav__item a {
+    color : white;
+    padding: 5px;
+    border-radius: 2px;
+    /* text-decoration: none; esto quita la linea de la parte de abajo de la etiqueta a  */
+    text-decoration: none;
+    /* background-color: red; */
+}
+
+/* pseudoClase se llama con dos puntos a:hover */
+
+.main-nav__item a:hover {
+    color: blue;
+}
+
+/* Active es al darle clic cambia a color rojo  */
+.main-nav__item a:active{
+    color:red;
+}
+
+
+
+/* pseudoElemento se llama con cuatro puntos indica que desues del elemento, agregue un contenido*/
+
+.main-nav__item::after{
+    content: " | ";
+}

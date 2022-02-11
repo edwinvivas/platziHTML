@@ -1,0 +1,9 @@
+html{
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    /* inherit significa heredar  del padre cercano */
+    font-size: inherit;
+}
