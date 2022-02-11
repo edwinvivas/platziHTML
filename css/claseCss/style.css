@@ -1,0 +1,17 @@
+/* aplicando estilo por tipo de elemento en este caso parrafo */
+p{
+    font-size: 30px;
+    color: blue;
+  }
+
+  /* Clases */
+
+  .parrafo{
+      color: red;
+  }
+
+  /* ID */
+
+  #otroParrafo{
+      color: black;
+  }
