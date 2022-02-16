@@ -1,0 +1,22 @@
+ /* HERMANO CERCANO ADJACENT SIBLING +  */
+/* h2 + p {
+    color: red;
+} */
+
+/* HERMANO GENERAL GENERAL SIBLING ~ */
+
+/* h2 ~ p{
+color: red;
+} */
+
+/* CHILD */
+
+/* div > p {
+    color:red;
+} */
+
+/* DESCENDIENTE */
+
+div p {
+    color:red;
+}

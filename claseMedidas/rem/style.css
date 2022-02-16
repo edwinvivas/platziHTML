@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* esto HTML debe ir si vamos a usar rem en el proyecto */
+html {
+    font-size: 62.5%;
+}
+p {
+    font-size: 1.6rem;
+}

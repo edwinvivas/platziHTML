@@ -1,0 +1,33 @@
+
+.parent{
+    margin: 100px 100px 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+.title {
+    background-color: red;
+    color: white;
+    border: 2px black solid;
+    border-radius: 24px;
+    width: 352px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: -326px 0 0 0px;
+}
+
+.content{
+    background-color: #80808033;
+    border: 2px black solid;
+    width: 522px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 56px;
+    border-radius: 79px;
+}
