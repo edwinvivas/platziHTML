@@ -20,7 +20,7 @@ html {
 }
 
 .c1{
-    background-color: brown;
+    background-color: rgb(15, 11, 11);
 }
 
 .c2{
@@ -31,10 +31,10 @@ html {
 }
 .c4{
     background-color: rgb(165, 42, 138);
-    height: auto;
+   
 }
 .c5{
-    background-color: rgb(78, 74, 74);
+    background-color: rgb(202, 14, 14);
 }
 
 @media (min-width:600px){
